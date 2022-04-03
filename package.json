@@ -1,0 +1,34 @@
+{
+  "name": "advanced-moderation",
+  "version": "1.0.0",
+  "description": "Advanced moderation designed for Discord Turkish servers.",
+  "main": "Index.js",
+  "scripts": {
+    "start": "node --expose-gc Index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aloshai/discord-moderation-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aloshai/discord-moderation-bot/issues"
+  },
+  "homepage": "https://github.com/aloshai/discord-moderation-bot#readme",
+  "dependencies": {
+    "chart.js": "^2.9.4",
+    "chartjs-node-canvas": "^3.0.6",
+    "discord.js": "^12.4.1",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "moment-timezone": "^0.5.31",
+    "mongoose": "^5.10.12",
+    "ms": "^2.1.2",
+    "quickchart-js": "^1.0.5",
+    "randomstring": "^1.1.5",
+    "table": "^6.0.4"
+  },
+  "keywords": []
+}

@@ -1,0 +1,79 @@
+{
+    "Server":{
+        "Id": "815423713180778526"
+    },
+
+    "Welcome": {
+        "Channel": "816788682769039370"
+    },
+
+    "PrivHub": {
+        "Room": "816737443063529472",
+        "Symbol": "⭐"
+    },
+    "NameChanger":{
+            "Roles": ["NAME_CHANGER_ROLE"],
+            "ForceTag": true,
+            "ForceTagFormat": "<tag> <name>"
+    },
+
+    "Roles": {
+        "Unregistered": ["815693061090181141"]
+    },
+
+    "Stats": {
+        "Message":{
+            "BypassChannels": [],
+            "Cooldown": 1
+        },
+        "Voice": {
+            "BypassChannels": []
+        }
+    },
+
+    "Penals": {
+        "SendPrivateMessage": false,
+        "Jail": {
+            "AuthRoles": ["815692839068631081"],
+            "Role": "815693065741926400",
+            "Log": "815693515409195050",
+            "Limit": 3
+        },
+        "Mute": {
+            "AuthRoles": ["815692809159573574"],
+            "Role": "815693057169162301",
+            "Log": "815693541577195541"
+        },
+        "VoiceMute": {
+            "AuthRoles": ["815692814188150794"],
+            "Role": "815693053037510677",
+            "Log": "815693541577195541",
+            "ManualMute": true
+        },
+        "Suspect": {
+            "AuthRoles": ["815692675529179156"],
+            "Role": "815693069785235508",
+            "Log": "815824218678624276"
+        },
+        "Ban": {
+            "AuthRoles": ["815692833793114122"],
+            "Log": "815693519464431666",
+            "Limit": 3
+        },
+        "Warn": {
+            "AuthRoles": ["815692675529179156"],
+            "Log": "815693541577195541",
+            "Role": []
+        },
+        "Kick": {
+            "AuthRoles": ["815692799374655546"],
+            "Log": "815693537550794753",
+            "Limit": 3
+        }
+    },
+
+    "Market": {
+        "MaxCoinBet": 50000,
+        "DropChannel": "777670253017563168"
+    }
+}
